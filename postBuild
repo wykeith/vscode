@@ -11,6 +11,6 @@ code-server --install-extension ms-python.python
 pip install -e.
 
 # Install conda packages
-conda install -n notebook pylint flake8 pytest pylint black -Y
+conda install -n notebook pylint pytest black pip -Y
 
 chmod a+w -R /srv/conda/envs
