@@ -10,4 +10,7 @@ code-server --install-extension ms-python.python
 # Install the VS code proxy
 pip install -e.
 
+# Install conda packages
+conda install -n notebook pylint flake8 pytest pylint black -Y
+
 chmod a+w -R /srv/conda/envs
