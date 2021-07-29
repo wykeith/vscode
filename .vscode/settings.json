@@ -9,6 +9,9 @@
         "**/.yarn": true,
         "**/jupyter_vscode_proxy.egg-info": true
     },
+    "jupyter.experiments.optOutFrom": [
+        "NativeNotebookEditor"
+    ],    
     "git.ignoreLimitWarning": true,
     "git.detectSubmodules": true,
     "python.formatting.provider": "black",
