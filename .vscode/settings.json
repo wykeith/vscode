@@ -8,5 +8,25 @@
         "**/.npm": true,
         "**/.yarn": true,
         "**/jupyter_vscode_proxy.egg-info": true
-    }
+    },
+    "git.ignoreLimitWarning": true,
+    "git.detectSubmodules": false,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8CategorySeverity.E": "Warning",
+    "python.linting.flake8CategorySeverity.W": "Information",
+    "python.linting.flake8CategorySeverity.F": "Warning",
+    "python.linting.flake8Args": [
+        "--ignore=E203,E501,W503"
+    ],
+    "python.linting.pylintArgs": [
+        "--generate-members"
+    ],
+    "workbench.colorTheme": "Visual Studio Dark"
 }
