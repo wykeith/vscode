@@ -1,11 +1,6 @@
 channels:
   - conda-forge
 dependencies:
-  - flake8
-  - black
-  - pytest
-  - pylint
-  - pandas
   - numpy
   - jupyter-server-proxy
   - code-server >=3.2
